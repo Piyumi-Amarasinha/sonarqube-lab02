@@ -1,4 +1,4 @@
-package main.java.com.example;
+package com.example;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -39,7 +39,7 @@ public class UserService {
 
         String query =
             "DELETE FROM users WHERE name = '" + username + "'";
-            
+
         st.execute(query);
-}
+    }
 }
